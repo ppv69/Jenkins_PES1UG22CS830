@@ -12,7 +12,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'cat PES1UG22CS830-Task_5.cpp'
+                sh 'cat PES1UG22CS830_Task_5.cpp'
                 echo 'Test Successful'
             }
         }
